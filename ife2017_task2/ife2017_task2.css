@@ -59,6 +59,7 @@ ul{
 }
 .content .text p{
 	line-height: 30px;
+	text-indent: 2em;
 }
 .box_img{
 	width: 200px; height: 200px;
