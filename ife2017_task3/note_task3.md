@@ -15,5 +15,5 @@ https://daaasheng.github.io/ife2017/ife2017_task3/ife2017_task3.html
 
 3.改变中间一栏的内容长度，以确保在中间一栏较高和右边一栏较高时，父元素的高度始终为子元素中最高的高度。
 
-4.
+4.float
 

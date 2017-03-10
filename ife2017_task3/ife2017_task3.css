@@ -2,37 +2,31 @@ html,body{margin: 0; }
 body{
 	background-color: #fff;
 }
-.container,.sidebar-left,.center,.sidebar-right{padding: 20px;  }
+.container,.sidebar-left,.center,.sidebar-right{padding: 20px; border: 1px solid #999; }
 .container{
 	height: 500px;
 	margin-top: 20px;  margin-right: 20px;  margin-left: 20px;
 	padding: 20px ;
-	background-color: #eee;
-	border: 1px solid #999;
+	background-color: #eee;	
 }
 .sidebar-left{
 	width: 200px;	
 	float: left;
-	background-color: #ccc;
+	background-color: #fff;
 
 }
 .center{
-	margin-left:261px; margin-right: 181px;
+	margin-left:264px; margin-right: 184px;
 	background-color: #fff;
 }
+.center span{text-indent: 2em;}
 .sidebar-right{	
 	width: 120px;	height: 420px;
 	float: right;	
 	padding-top: 25px;
-	background-color: #bbb;
+	background-color: #fff;
 }
-.port{
-	width: 80px;height: 80px;
-	float: left;
-}
+.port,.pport{width: 80px;height: 80px;border: 1px solid #999;}
+.port{	float: left;}
 .team{ float: left;  padding-left: 20px;}
-.pport{
-	width: 80px;height: 80px;
-	margin: 0 20px 25px 20px;
-	/*line-height: 100px;*/
-}
+.pport{	margin: 0 20px 25px 20px;}
