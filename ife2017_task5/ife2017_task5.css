@@ -1,0 +1,82 @@
+*{margin: 0;	padding: 0;}
+body{background: #DEDEDE;}
+ul{	list-style: none; display: inline;}
+
+
+.header{height: 60px; background: #333333;}
+.main{ padding: 30px;}
+
+.header_title{font-size:22px; color: #e00b00; margin-left: 40px; padding-top: 25px;}
+.nav{float: right;  margin-top: -30px; margin-right: 20px;}
+.nav li{float: left; padding: 0 10px;}
+
+.content{
+	background: #fff; 
+	margin-right: 395px;
+	margin-bottom: 30px;
+	padding: 10px;}
+.login_bar{width: 365px; background: #fff; float: right; height: 500px;}
+
+.sidebar{
+	padding: 30px;
+}
+.text dd{
+	line-height: 30px;
+}
+.text .form_l{
+	width: 150px;	
+	text-align: right;
+	display: inline-block;
+	padding: 0 0 0 0;
+}
+.tips{
+	width: 300px; 
+	padding: 0 0  0 150px;
+	text-align: left;
+	display: inline-block;
+	color: #ADADAF;
+}
+.submit{
+	width: 90%; height: 40px;
+	background-color:#3355D0;
+	font-size: 24px;
+	font-weight: bold;
+	margin-left: 5%;
+}
+
+.title{
+	font-size: 30px;
+	font-weight: bold;
+	color: #000;
+	margin-top: 0px;
+	padding: 20px;
+
+}
+.content .subheading{
+	font-size: 25px;
+	color: #68605D;
+	padding: 15px 15px 15px 20px;
+}
+.content .author{
+	font-size: 15px;
+	color: #7D8286;
+	padding: 10px 10px 10px 20px;
+}
+.content .text{
+	padding: 0 0 0 20px;
+}
+.content .text p{
+	line-height: 30px;
+	text-indent: 2em;
+}
+
+.footer{
+	height: 80px;
+	background: #333333;
+	color: #ffffff;
+	text-align: center;
+}
+.copyright{	
+	line-height: 80px;
+	color: #fff;
+}
