@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>task25</title>
+	<meta charset="utf-8">
+	<script src="../jquery-1.8.3.js"></script>
+	<link rel="stylesheet" type="text/css" href="./ife2017_task25.css">
+	<script type="text/javascript" src="../dep/jquery-1.8.3.js"></script>
+	<script type="text/javascript" src="./ife2017_task.js"></script>
+</head>
+<body>
+	<div>
+		 <label for="name1">名称</label>
+ 		 <input type="text" name="name" id="name1">
+  		 <button type="submit" id="submit1">验证</button>
+  		 <span id="tips1" class="input-tips">必填，长度为4~16个字符</span>
+
+
+	</div>
+	<script type="text/javascript">
+		
+		$("#submit1").click(function(){
+			$("#tips1").html("必填，长度为4~16个字符");
+			console.log($("#name1").val());
+			if(validate_length($("#name1").val()) == false){
+				$("#tips1").html("输入的格式不正确");
+			}
+			if(validate_required($("#name1").val()) == false){
+					console.log("为空");
+					// $("#tips1").text("姓名不能为空");   ok
+					$("#tips1").html("姓名不能为空");
+					/*$("#tips1").innerHTML  = "姓名不能为空";  error*/
+					
+				}			
+
+		});
+
+
+
+	/*验证不为空	*/
+	function validate_required(val){
+		if(val == null || val == ""){
+			return false;
+		}else{
+			return true;
+		}
+	}
+
+	/*验证长度*/
+	function validate_length(val){
+		var vallength = 0;
+		for(var i = 0; i < val.length ; i++){
+			if(val.charCodeAt(i) >= 0 && val.charCodeAt(i) <= 128){
+				vallength ++;
+			}else{
+				vallength += 2;
+			}
+		}
+		if(vallength >= 4 && vallength <= 16){
+			return true;
+		}else{
+			return false;
+		}
+
+	}
+	</script>
+</body>
+</html>
