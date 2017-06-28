@@ -140,72 +140,71 @@
 
 	<!-- 展示5 -->
 	<div class="content">
-
 		<div class="sidebar">
-			<sapn class="title">侧栏标题</span>		
+			<span class="title">侧栏标题</span>		
 		</div>
-		<div class="text">	
-		<dl>
-		<dd>
-			<sapn class="form_l" >请输入邮箱地址</sapn>
-			<sapn class="form_r">
-				<input type="text" name="email" placeholder="XXXX@XXX.com">
-			</sapn>			
-		</dd>		
-		<dd>
-			<sapn class="tips">邮箱地址请按要求格式输入</sapn>
-		</dd>
-		<dd>
-			<sapn class="form_l">请输入密码</sapn>
-			<sapn form_r>
-				<input type="password" name="psd" placeholder="&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;">
-			</sapn>
-		</dd>			
-		<dd>
-			<sapn class="form_l">请再一次输入密码</sapn>
-			<sapn form_r>
-				<input type="password" name="confirmpsd" placeholder="&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;">
-			</sapn>
-		</dd>
-		<dd>
-			<sapn class="tips">密码请为6-16位英文数字</sapn>
-		</dd>
-		<dd>
-			<sapn class="form_l">	性别 </sapn>
-			<sapn form_r>
-				<input type="radio" name="sex" checked="checked">男
-				<input type="radio" name="sex">女
-			</sapn>			
-		</dd>
-		<dd>
-			<sapn class="form_l">城市</sapn>
-			<sapn form_r>
-				<select>
-					<option>北京</option>
-					<option>石家庄</option>
-				</select> 
-			</sapn>
-		</dd>
-		<dd>
-			<sapn class="form_l">爱好</sapn>
-			<sapn form_r>
-				<input type="checkbox" name="hobby">运动
-				<input type="checkbox" name="hobby">艺术
-				<input type="checkbox" name="hobby">科学
-			</sapn>
-		</dd>
-		<dd>
-			<sapn class="form_l">个人描述</sapn>
-			<sapn form_r>
-				<textarea rows="3" cols="15">
-				</textarea>				
-			</sapn>
-		</dd>
-		<dd>
-			<button class="submit">确认提交</button>
-		</dd>
-		</dl>			
-		</div>
+		<form class="text">	
+			<dl>
+				<dd>
+					<span class="form_l" >请输入邮箱地址</span>
+					<span class="form_r">
+						<input type="text" name="email" placeholder="XXXX@XXX.com">
+					</span>			
+				</dd>		
+				<dd>
+					<span class="tips">邮箱地址请按要求格式输入</span>
+				</dd>
+				<dd>
+					<span class="form_l">请输入密码</span>
+					<span form_r>
+						<input type="password" name="psd" placeholder="&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;">
+					</span>
+				</dd>			
+				<dd>
+					<span class="form_l">请再一次输入密码</span>
+					<span form_r>
+						<input type="password" name="confirmpsd" placeholder="&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;">
+					</span>
+				</dd>
+				<dd>
+					<span class="tips">密码请为6-16位英文数字</span>
+				</dd>
+				<dd>
+					<span class="form_l">	性别 </span>
+					<span form_r>
+						<input type="radio" name="sex" checked="checked">男
+						<input type="radio" name="sex">女
+					</span>			
+				</dd>
+				<dd>
+					<span class="form_l">城市</span>
+					<span form_r>
+						<select>
+							<option>北京</option>
+							<option>石家庄</option>
+						</select> 
+					</span>
+				</dd>
+				<dd>
+					<span class="form_l">爱好</span>
+					<span form_r>
+						<input type="checkbox" name="hobby">运动
+						<input type="checkbox" name="hobby">艺术
+						<input type="checkbox" name="hobby">科学
+					</span>
+				</dd>
+				<dd>
+					<span class="form_l">个人描述</span>
+					<span form_r>
+						<textarea rows="3" cols="15">
+						</textarea>				
+					</span>
+				</dd>
+				<dd>
+					<input type="submit" class="submit" value="确认提交" onclick="alert("提交成功!")" />
+				</dd>
+			</dl>			
+		</form>
 	</div>
 
 	<!-- 尾部  -->
