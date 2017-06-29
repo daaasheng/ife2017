@@ -1,0 +1,113 @@
+*{margin: 0 auto;	padding: 0;}
+body{background: #DEDEDE; font-family: "Microsoft YaHei";}
+ul{	list-style: none; display: inline;}
+.bg{
+	width: 980px;
+	height: 1386px;
+	background: #fff;	
+}
+.header{
+	width: 892px;
+	height: 61px;
+	border-bottom: solid 2px #938e8c;
+	font: 12px "黑体";
+	color: #d45d5c;
+	line-height:100px;
+}
+.header .url{
+	width: 110px;
+	height: 61px;	
+	float: left;
+	color: #fff;	
+	text-align: center;	
+}
+.date{	
+	float: right;	
+}
+
+
+.main{
+	width: 892px;height: 1262px;	
+}
+.content1{
+	height: 335px;   //35+300		
+	/*padding-top: 35px;*/
+	/*background: #b9e7b2;*/
+}
+.png1{
+	width: 640px; height: 300px;
+	float: left;
+	background-image: url(1.png);	
+	margin-top: 35px;
+}
+.about{
+	width: 203px;
+	/*margin-top: 35px;*/
+	margin-left:49px;
+	float: left;
+	border-top: solid 2px #cc8091;	
+}
+.sub_title{
+	text-decoration:underline;
+	color: #000;
+	font-size: 24px ;
+	/*margin: 5px;*/
+	line-height: 40px;
+}
+.sub_title:first-letter{
+	font-size:29px;
+}
+.explain{
+	color: #676767;
+	font: 12px  "KaiTi";
+	text-align:justify;
+	line-height: 10px;
+}
+.number{
+	font-size: 116px;
+	color: #75b86b;
+	font-style: italic;	
+	line-height: 110px;
+	margin-left: -25px;
+}
+.version1,.version2,.version3{color: #cc8091;}
+.version1{
+	font-size: 55px;
+	line-height: 75px;
+	float: left;
+	}
+.version2{
+	font-size: 21px;
+	line-height: 75px;	
+	vertical-align:super;	
+    }
+.version3{
+	font-size: 12px;
+	/*line-height: 80px;*/
+	color: #676767;
+	vertical-align:sub;	
+	margin-left: -30px;
+	}
+.content2{
+	height: 220px;   //40+180
+	padding-top: 40px;
+	background: #789;
+}
+.content3{
+	height: 300px;
+	background:#5f99da;
+}
+.footer{
+	width: 892px; 
+	height: 61px;
+	border-top: solid 1px #938e8c;
+	font: 12px "SimHei";
+	color: #d45d5c;
+}
+.footer .copyright{
+	float: right;	
+	line-height:20px;
+}
+
+.redblock{background: #d45d5c;}
+
