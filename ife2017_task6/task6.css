@@ -1,5 +1,10 @@
 *{margin: 0 auto;	padding: 0;}
-body{background: #DEDEDE; font-family: "Microsoft YaHei";}
+body{background: #DEDEDE; 
+	color: #000;
+	font-size: 12px;
+	font-family: "Microsoft YaHei";
+	line-height: 16px;
+}
 ul{	list-style: none; display: inline;}
 .bg{
 	width: 980px;
@@ -30,7 +35,7 @@ ul{	list-style: none; display: inline;}
 	width: 892px;height: 1262px;	
 }
 .content1{
-	height: 335px;   //35+300		
+	height: 335px;   /*35+300	*/	
 	/*padding-top: 35px;*/
 	/*background: #b9e7b2;*/
 }
@@ -89,13 +94,102 @@ ul{	list-style: none; display: inline;}
 	margin-left: -30px;
 	}
 .content2{
-	height: 220px;   //40+180
+	height: 220px;   /*40+180*/
 	padding-top: 40px;
-	background: #789;
+	/*background: #789;*/
+}
+
+.detail1{
+	width: 255px; height: 180px;
+	float: left;
+	color: #767777;
+	font-family: "SimSun";
+	margin-right: 30px;
+}
+.detail1 .sub_title{
+	color: #418c59;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: "Microsoft YaHei";
+}
+.detail1 .sub_title:first-letter{
+	font-size:19px;
+}
+.detail2{
+	width: 235px; height: 180px;
+	float: left;
+	margin-right: 30px;
+	color: #231815;
+	opacity: 0.7;
+}
+.detail2 .sub_title{
+	color: #d2994f;
+	font-size: 16px;
+	font-weight: bold;
+}
+.detail2 .sub_title:first-letter{
+	font-size:19px;
+}
+.detail3{
+	width: 165px; height: 180px;
+	float: left;
+	margin-right: 30px;	
+	line-height: 20px;
+}
+.detail3 .sub_title{
+	color: #cc7680;
+	font-size: 16px;
+	font-weight: bold;
+}
+.detail3 .sub_title:first-letter{
+	font-size:19px;
+}
+.detail3 dt .pecent{
+	color: #cd4a48;
+	opacity: 0.7;
 }
 .content3{
-	height: 300px;
-	background:#5f99da;
+	height: 605px;
+	/*background:#5f99da;*/
+}
+.content3 .content3_left{
+	width: 415px;height: 605px;
+	float: left;
+	/*background: #f5e425;*/
+	padding-right: 20px;
+	
+}
+.content3_left .title{
+	width: 415px;height: 160px;
+	border-bottom: solid 2px #11456b; 
+	color: #11456b;
+	font-size: 42px;
+	font-family: "SimHei";
+	font-weight: bold;
+	line-height: 50px;
+	/*background: #f5e425;*/
+}
+.title i{
+	font-size: 72px;
+	color: #f5e327;
+	font-style: italic;
+}
+.title p{
+	font-size: 33px;
+}
+.content3_left .text{
+	
+}
+.text .pic2{
+	width: 167px; height: 288px;
+	background: url(3.png);
+	position: relative;
+	top:100px; left: 120px;
+}
+.content3 .content3_right{
+	width: 456px;height: 605px ;
+	float: left;
+	background: #11476d;
 }
 .footer{
 	width: 892px; 
