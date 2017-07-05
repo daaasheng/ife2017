@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Document</title>
+<style>
+body {
+background-color: #FFFFFF;
+color: #595959;
+}
+.contain {
+width: 150px;
+}
+.contain p {
+font: 80%/1.6 Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+.contain p:first-letter {
+font-size: 5em;
+padding: 0.1em;
+color: #000000;
+vertical-align: middle;
+}
+.contain p:first-line {
+color: red;
+}
+.contain p:first-child:first-letter {
+color: red;
+}
+.contain p:first-child:first-line {
+color: inherit;
+}
+</style>
+</head>
+<body>
+<div class="contain">
+<p>This is a test article. This is a test article.</p>
+<p>This is a test article. This is a test article.</p>
+<p>这是一个测试</p>
+</div>
+</body>
+</html>
