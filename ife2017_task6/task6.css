@@ -189,7 +189,7 @@ ul{	list-style: none; display: inline;}
 	top:30px; */
 	float: right;	
 }
-.content3_left p:first-letter {
+.text p:first-letter {
 	color: #f5e327;
 	font-size: 70px;
 	font-family: "Microsoft YaHei";	
