@@ -1,0 +1,16 @@
+
+/**/
+*{
+	margin: auto 0;
+	padding: 0;
+}
+.body{
+	
+}
+
+.page{
+	/*width: 1280px;height: 4554px;*/
+	width: 1280px;height: 4554px;
+	overflow: scroll;
+	background: #000;
+}
