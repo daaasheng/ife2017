@@ -10,7 +10,42 @@
 
 .page{
 	/*width: 1280px;height: 4554px;*/
-	width: 1280px;height: 4554px;
+	height: 4554px;
 	overflow: scroll;
 	background: #000;
+}
+.head{
+	height: 56px;
+	background: #e7504d;
+}
+.column1{
+	height: 690px;
+
+}
+.column2{
+	height: 250px;
+}
+.column3{
+	height: 360px;
+}
+.column4{
+	height: 342px; 
+}
+.column5{
+	height: 604px;
+}
+.column6{
+	height: 567px;                     
+}
+.column7{
+	height: 522px; 
+}
+.column8{
+	height: 749px; 
+}
+.column9{
+	height: 360px;
+}
+.column10{
+	height: 57px;
 }

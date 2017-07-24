@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ife实现树形组件</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+	/*全局样式*/
+*{padding:0;margin:0;}
+div,dl,dt,dd,form,h1,h2,h3,h4,h5,h6,img,ol,ul,li,table,th,td,p,span,a{border:0;}
+img,input{border:none;vertical-align:middle;}
+body{font-family:Tahoma,Arial,Helvetica,"宋体";font-size:12px;/*text-align:center;*/background:#FFF;color:#000;}
+html{overflow-y:scroll;}
+ul,ol{list-style-type:none;}
+th,td,input{font-size:12px;}
+h3{font-size:14px;}
+button{border:none;cursor:pointer;font-size:12px;background-color:transparent;}
+select{border-width:1px;_zoom:1;border-style:solid;padding-top:2px;font-size:12px;}
+.clear{clear:both;font-size:1px;height:0;visibility:hidden;line-height:0;}
+.clearfix:after{content:"";display:block;clear:both;}
+.clearfix{zoom:1;}
+a:link,a:visited{text-decoration:none;color:#333;}
+a:hover,a:active{text-decoration:underline;color:#f60;}
+	
+
+	.catalogue{/*float:left;*/ font-size: 14pt;}
+	.node ul{margin-left: 30px;}
+	.node .tree{height: 24px; line-height: 24px;}
+	/*.node .node{display: none;}*/
+	.nodeOpen{}
+	.nodeClose{}
+
+	</style>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+</head>
+<body>
+
+<div class="catalogue node " >
+	<div>目 录</div>
+	<div class="tree">parentNode1-unfold</div>
+	<ul class="node">
+		<li>
+			<div>parentNode11-fold</div>
+			<ul>
+				<li>childNode111</li>
+				<li>childNode112</li>
+				<li>childNode113</li>
+				<li>childNode114</li>
+			</ul>
+		</li>
+		<li>
+			<div>parentNode12-fold</div>
+			<ul>
+				<li>childNode121</li>
+				<li>childNode122</li>
+				<li>childNode123</li>
+				<li>childNode124</li>
+			</ul>
+		</li>	
+	</ul>
+	<div class="tree">parentNode2-unfold</div>
+	<ul class="node">
+		<li>parentNode21-noChild</li>
+		<li>parentNode22-noChild</li>
+	</ul>
+	<div class="tree">parentNode3-noChild</div>
+</div>
+
+<script type="text/javascript">
+	
+</script>
+</body>
+</html>
