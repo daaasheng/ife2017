@@ -63,8 +63,9 @@ function getData() {
 	var li = source.getElementsByTagName("li");		  
 	console.log(li);  
 	var liLength = li.length;             
-	for(var i = 0; i < liLength; i++){							
-		AQI.push(li[i].getElementsByTagName("b")[0].innerHTML); 
+	for(var i = 0; i < liLength; i++){	
+		html = 	"第" + [i] + "名：" + li[i].getElementsByTagName("b")[0].innerHTML;					
+		AQI.push(html); 
 		console.log(li[i].innerHTML);			
 		/*AQI.push(li[i].innerHTML);*/ 					
 		} 

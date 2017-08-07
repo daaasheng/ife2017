@@ -36,13 +36,18 @@ window.onload = init();
 function init() {
 	// 在这下面给sort-btn绑定一个点击事件，点击时触发btnHandle函数
 	var sortBtn = document.getElementById("sort-btn");
+	var resort = document.getElementById("resort");	
+		
 	//触发
-	sortBtn.onclick = btnHandle();
+	/*sortBtn.onclick = btnHandle();*/
 
 	//触发
-	/*sortBtn.addEventListener("click", function(){	
-				
-	});*/	
+	sortBtn.addEventListener("click", function(){
+			//清空
+			console.log(resort.children);
+			resort.innerHTML = "";
+			btnHandle();
+	});	
 }
 /**
  * getData方法
