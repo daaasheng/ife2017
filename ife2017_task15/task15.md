@@ -1,0 +1,56 @@
+# 任务三：零基础JavaScript编码（三） #
+
+目的
+
+    接触一下JavaScript中的高级选择器
+    学习JavaScript中的数组对象遍历、读写、排序等操作
+    学习简单的字符串处理操作
+
+要求
+
+	
+    参考以下示例代码，读取页面上已有的source列表，从中提取出城市以及对应的空气质量
+    将数据按照某种顺序排序后，在resort列表中按照顺序显示出来
+
+## 问题
+
+Q1：js文档初始加载函数
+
+	<body onload="myfunction()">
+	window.onload=function()
+jQ
+
+	$(document).ready(function() { 
+	$(function() { 
+
+Q2：触发
+
+	id.onclick = function();
+
+	id.addEventListener("event",function(){
+	});
+Q3:获取元素及值
+
+	var id = document.getElementById("");
+
+	var name = document.getElementsByTagName("");
+
+    id.innerHTML;
+
+	id.innerText;
+
+Q4: 添加元素及赋值
+
+	id.innerHTML = "";
+   
+	id.append(document.creatElement("div"));
+
+Q4: 数组
+
+	var arr = new Array();
+	
+	arr.push("");
+
+## bug
+
+1. 城市，AQI捆绑
