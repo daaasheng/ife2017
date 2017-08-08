@@ -100,17 +100,19 @@ function btnHandle() {
 	console.log("--排序--");
 		// var source = document.getElementById("source").getElementsByTagName("li");
 		var source = document.getElementById("source");
-		console.log(source);
+		console.log(source);//<ul>
+
 		var li = source.getElementsByTagName("li");		  
-		console.log(li);  
+		console.log(li);  //(7)[li,li,li]
 		var liLength = li.length;             
 		for(var i = 0; i < liLength; i++){							
 			AQI.push(li[i].getElementsByTagName("b")[0].innerHTML); 
-			console.log(li[i].innerHTML);			
+			console.log(li[i].innerHTML); //北京空气质量:<b>90</b>		
+				
 			/*AQI.push(li[i].innerHTML);*/ 					
 			} 
 		AQI.sort();
-		console.log(AQI);
+		console.log(AQI);  //(7)["32",]
 		var resort = document.getElementById("resort");		
 		for(var i = 0; i < liLength; i++){
 		var reLi = document.createElement("li");  									
