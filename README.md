@@ -43,6 +43,8 @@ task6任务六：通过HTML及CSS模拟报纸排版
 
 task7任务七：实现常见的技术产品官网的页面架构及样式布局
 
+[https://daaasheng.github.io/ife2017/ife2017_task7/task7.html](https://daaasheng.github.io/ife2017/ife2017_task7/task7.html)
+
 task8任务八：响应式网格（栅格化）布局
 
 task9任务九：使用HTML/CSS实现一个复杂页面
@@ -65,6 +67,12 @@ task14任务二：零基础JavaScript编码（二）
 [https://daaasheng.github.io/ife2017/ife2017_task14/ife2017_task14.html](https://daaasheng.github.io/ife2017/ife2017_task14/ife2017_task14.html "task14")
 
 task15任务三：零基础JavaScript编码（三）
+
+[https://daaasheng.github.io/ife2017/ife2017_task15/task15_1.html](https://daaasheng.github.io/ife2017/ife2017_task15/task15_1.html)
+
+完整排序
+
+[https://daaasheng.github.io/ife2017/ife2017_task15/task15.html](https://daaasheng.github.io/ife2017/ife2017_task15/task15.html)
 
 task16任务四：基础JavaScript练习（一）
 
