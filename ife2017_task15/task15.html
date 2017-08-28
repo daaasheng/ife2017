@@ -37,12 +37,15 @@ function init() {
 	// 在这下面给sort-btn绑定一个点击事件，点击时触发btnHandle函数
 	var sortBtn = document.getElementById("sort-btn");
 	//触发
-	sortBtn.onclick = btnHandle();
+	/*sortBtn.onclick = btnHandle();*/
 
 	//触发
-	/*sortBtn.addEventListener("click", function(){	
-				
-	});*/	
+	sortBtn.addEventListener("click", function(){	
+				//清空
+			console.log(resort.children);
+			resort.innerHTML = "";
+			btnHandle();
+	});	
 }
 /**
  * getData方法
@@ -57,20 +60,35 @@ function getData() {
 		……
 	]
 	*/
-	var AQI = new Array();		
+			
 	var source = document.getElementById("source");
 	console.log(source);
 	var li = source.getElementsByTagName("li");		  
 	console.log(li);  
-	var liLength = li.length;             
-	for(var i = 0; i < liLength; i++){	
-		html = 	"第" + [i] + "名：" + li[i].getElementsByTagName("b")[0].innerHTML;					
-		AQI.push(html); 
-		console.log(li[i].innerHTML);			
+	var liLength = li.length;
+	var AQI = new Array();             
+	for(var i = 0; i < liLength; i++){		
+		console.log(li[i].innerHTML);		
+		console.log(li[i].innerHTML.slice(0,2));
+		console.log(li[i].getElementsByTagName("b")[0].innerHTML);		
+		/*AQI.push(); */
+		var AQI[i] = new Array();
+		AQI[i][0] = li[i].innerHTML.slice(0,2);
+		AQI[i][1] = li[i].getElementsByTagName("b")[0].innerHTML;
 		/*AQI.push(li[i].innerHTML);*/ 					
 		} 
 	//return data;
 
+
+	AQI.sort();
+	console.log(AQI);
+	var resort = document.getElementById("resort");		
+	for(var i = 0; i < liLength; i++){
+		var reLi = document.createElement("li");  									
+		console.log(AQI[liLength -1 - i]);
+		reLi.innerHTML = "第" + (i+1) + "名：" +AQI[liLength - 1 - i];		
+		resort.appendChild(reLi);
+		}  
 }
 
 /**
@@ -98,15 +116,7 @@ function btnHandle() {
 	render(aqiData);
 
 	
-	AQI.sort();
-	console.log(AQI);
-	var resort = document.getElementById("resort");		
-	for(var i = 0; i < liLength; i++){
-	var reLi = document.createElement("li");  									
-		console.log(AQI[liLength -1 - i]);
-		reLi.innerHTML = AQI[liLength - 1 - i];		
-		resort.appendChild(reLi);
-		}  
+	
 	
 }
 

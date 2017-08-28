@@ -41,7 +41,7 @@ task6任务六：通过HTML及CSS模拟报纸排版
 
 [https://daaasheng.github.io/ife2017/ife2017_task6/task6.html](https://daaasheng.github.io/ife2017/ife2017_task6/task6.html)
 
-task7任务七：实现常见的技术产品官网的页面架构及样式布局
+task7任务七：实现常见的技术产品官网的页面架构及样式布局--未完成
 
 [https://daaasheng.github.io/ife2017/ife2017_task7/task7.html](https://daaasheng.github.io/ife2017/ife2017_task7/task7.html)
 
