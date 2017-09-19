@@ -70,7 +70,7 @@ task15任务三：零基础JavaScript编码（三）
 
 [https://daaasheng.github.io/ife2017/ife2017_task15/task15_1.html](https://daaasheng.github.io/ife2017/ife2017_task15/task15_1.html)
 
-完整排序
+完整排序9.19
 
 [https://daaasheng.github.io/ife2017/ife2017_task15/task15.html](https://daaasheng.github.io/ife2017/ife2017_task15/task15.html)
 
@@ -227,7 +227,10 @@ task99WebGL & ECharts - 【综合】三维地球
 
 task101有趣的鼠标悬浮模糊效果
 
+
 task102动态数据绑定（一）
+
+vue实现
 
 task103动态数据绑定（二）
 
@@ -237,7 +240,7 @@ task105动态数据绑定（四）
 
 task106自定义checkbox， radio样式
 
-task107动态数据绑定（五）
+task107vue动态数据绑定（五）
 
 task108自定义网页右键菜单
 
