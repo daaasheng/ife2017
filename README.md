@@ -47,6 +47,8 @@ task7任务七：实现常见的技术产品官网的页面架构及样式布局
 
 task8任务八：响应式网格（栅格化）布局
 
+[https://daaasheng.github.io/ife2017/ife2017_task8/task8.html](https://daaasheng.github.io/ife2017/ife2017_task8/task8.html)
+
 task9任务九：使用HTML/CSS实现一个复杂页面
 
 task10任务十：Flexbox 布局练习

@@ -1,14 +1,31 @@
-## 描述
+## 实现
 
-1.使用 HTML 与 CSS 实现类似 BootStrap 的响应式 12 栏网格布局，根据屏幕宽度，元素占的栏数不同。
+1.适用于chrome、firefox
 
-2.效果图中的红色的文字是说明，不需要写在 HTML 中。
+### key1:calc(30% - 10px) 计算
 
-3.网格布局的作用在于更有效地控制元素在网页中所占比例的大小。比如，博客中有一个留言板模块，在比较大的屏幕上，我们希望它占了右边 25% 的宽度，在手机等比较小的屏幕上，我们希望它占 100% 的宽度，出现在博客文章下方。网格布局是一种实现这一需求的办法，它的好处是，把所有的宽度分为固定栏数（常用 12 栏），从而更高效的控制元素宽度。而这功能，我们使用 HTML 和 CSS 就能实现了。
+### key2：box-sizing属性
 
-4.以 BootStrap 的网格系统为例，DOM 元素类名形如 col-md-4；其中 col 是“列” column 的缩写；md 是 medium 的缩写，适用于应屏幕宽度大于 768px 的场景；4 是占四栏的意思。因此，col-md-4 的意思是，在屏幕宽度大于 768px 时，该元素占四栏。
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	-webkit-box-sizing:border-box; /* Safari */
+
+### key3: @media (max-width：768px){}
+
+	col-lg一般用于大屏设备，(min-width:1200px);
+	col-md一般用于中屏设备，(min-width：992px);
+	col-sm一般用于小屏设备，(min-width：768px);
+	col-xs用于超小型设备，(max-width：768px);
+
+## 要求
+
+1.不适用框架
+
+2.实现BootStrap网格效果，如图所示
 
 ## 参考
+
+以 BootStrap 的网格系统为例，DOM 元素类名形如 col-md-4；其中 col 是“列” column 的缩写；md 是 medium 的缩写，适用于应屏幕宽度大于 768px 的场景；4 是占四栏的意思。因此，col-md-4 的意思是，在屏幕宽度大于 768px 时，该元素占四栏。
 
 1.[https://getbootstrap.com/examples/grid/](https://getbootstrap.com/examples/grid/)
 
@@ -16,7 +33,4 @@
 
 3.[http://getbootstrap.com/2.3.2/scaffolding.html#gridSystem](http://getbootstrap.com/2.3.2/scaffolding.html#gridSystem)
 
-## bootstrap栅格使用
 
-
-## bootstrap栅格原理
