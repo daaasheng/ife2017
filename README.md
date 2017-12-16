@@ -51,6 +51,8 @@ task8任务八：响应式网格（栅格化）布局
 
 task9任务九：使用HTML/CSS实现一个复杂页面
 
+[https://daaasheng.github.io/ife2017/ife2017_task9/task9.html](https://daaasheng.github.io/ife2017/ife2017_task9/task9.html)
+
 task10任务十：Flexbox 布局练习
 
 task11任务十一：移动Web页面布局实践
