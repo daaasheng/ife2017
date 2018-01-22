@@ -61,3 +61,27 @@ body {
     height: 16px;
     vertical-align: -3px;
 }
+
+.main{
+    min-width: 1281px;
+    height: 1213px;
+    margin: 0 auto;
+    /*overflow-x: auto;*/
+}
+.main_left{
+    width: 260px;
+    height: 100%;
+    float: left;
+    background-color: #2a2e3d;
+
+}
+.main_right{
+    width: 1021px;
+    height: 100%;
+    float: left;
+    background-color: #eeeeed;
+}
+.main_left .main_right{
+    /*height: 1213px;*/
+    float: left;
+}
