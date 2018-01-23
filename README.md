@@ -70,11 +70,7 @@ task14任务二：零基础JavaScript编码（二）
  
 [https://daaasheng.github.io/ife2017/ife2017_task14/ife2017_task14.html](https://daaasheng.github.io/ife2017/ife2017_task14/ife2017_task14.html "task14")
 
-task15任务三：零基础JavaScript编码（三）
-
-[https://daaasheng.github.io/ife2017/ife2017_task15/task15_1.html](https://daaasheng.github.io/ife2017/ife2017_task15/task15_1.html)
-
-完整排序9.19
+task15任务三：零基础JavaScript编码（三）--排序
 
 [https://daaasheng.github.io/ife2017/ife2017_task15/task15.html](https://daaasheng.github.io/ife2017/ife2017_task15/task15.html)
 
