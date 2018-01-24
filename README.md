@@ -76,6 +76,8 @@ task15任务三：零基础JavaScript编码（三）--排序
 
 task16任务四：基础JavaScript练习（一）
 
+[https://daaasheng.github.io/ife2017/ife2017_task16/task16.html](https://daaasheng.github.io/ife2017/ife2017_task16/task16.html)
+
 task17任务五：基础JavaScript练习（二）
 
 task18任务六：基础JavaScript练习（三）
