@@ -15,3 +15,45 @@
 点击队列中任何一个元素，则该元素会被从队列中删除
 
 不使用任何第三方库、框架
+
+## bug，缺少alert提示
+
+自测：
+
+case1： 添加正常
+
+case2: 删除正常
+
+## key1，事件监听
+
+	node.addEventLintener("click",function(){
+		//do
+	});
+
+## key2，获取node
+
+	< id="id" >
+    document.getElementById(id)
+    < class="class" >
+    document.getElementsByClassName(class)
+    < name="name">
+    document.getElementsByName(name)
+    element.getElementsByClassName()
+    <p></p>
+    document.getElemnetsByTagName("p")
+    element.getElementsByTagName()
+    parent.firstChild
+    parent.lastChild
+    parent.firstElementChild  //read-only property
+
+## key3，操作node
+
+	document.creatElement("p")
+    parent.append(node)
+    parent.removeChild()
+    parent.insertBefore(node,position)
+    node.remove()
+    node.before(position)
+    node.after(position)
+    node.replaceWith(oldNode)
+

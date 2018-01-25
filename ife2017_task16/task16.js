@@ -26,6 +26,7 @@ window.onload = function() {
  function processQuene(Inout, dir){
  	var val = document.getElementById("inputNumber").value;
  	var parent = document.getElementById("show");
+ 	// var numbers = document.getElementsByClassName("number");
  	var firstChild = parent.firstChild;
  	var lastChild = parent.lastChild;
  	var child = document.createElement("span");
@@ -36,7 +37,10 @@ window.onload = function() {
 	});
  	if(Inout){
  		dir ? parent.appendChild(child) : parent.insertBefore(child, firstChild); 
- 	}else{
- 		parent.removeChild(dir ? lastChild : firstChild);
+ 	}else if(parent.children.length > 0){
+ 		var node = dir ? lastChild : firstChild;
+ 		var text = node.innerHTML;
+ 		alert(text);
+ 		parent.removeChild(node);
  	}
  }
