@@ -70,17 +70,19 @@ task14任务二：零基础JavaScript编码（二）
  
 [https://daaasheng.github.io/ife2017/ife2017_task14/ife2017_task14.html](https://daaasheng.github.io/ife2017/ife2017_task14/ife2017_task14.html "task14")
 
-task15任务三：零基础JavaScript编码（三）--排序
+task15任务三：零基础JavaScript编码（三）-- sort排序
 
 [https://daaasheng.github.io/ife2017/ife2017_task15/task15.html](https://daaasheng.github.io/ife2017/ife2017_task15/task15.html)
 
-task16任务四：基础JavaScript练习（一）
+task16任务四：基础JavaScript练习（一）-- node操作
 
 [https://daaasheng.github.io/ife2017/ife2017_task16/task16.html](https://daaasheng.github.io/ife2017/ife2017_task16/task16.html)
 
-task17任务五：基础JavaScript练习（二）
+task17任务五：基础JavaScript练习（二）-- 排序算法
 
-task18任务六：基础JavaScript练习（三）
+[https://daaasheng.github.io/ife2017/ife2017_task17/task17.html](https://daaasheng.github.io/ife2017/ife2017_task17/task17.html)
+
+task18任务六：基础JavaScript练习（三）-- 正则
 
 task19任务七：JavaScript和树（一）
 
