@@ -63,7 +63,7 @@ body {
 }
 
 .main{
-    min-width: 1281px;
+    width: 1281px;
     height: 1213px;
     margin: 0 auto;
     /*overflow-x: auto;*/
