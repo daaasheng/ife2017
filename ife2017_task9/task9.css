@@ -1,7 +1,10 @@
+/* 标签样式 */
 body {
     margin: 0;
+    overflow-y: scroll;
 }
 
+/* 头部 */
 .head {
     width: 100%;
     height: 56px;
@@ -61,27 +64,47 @@ body {
     height: 16px;
     vertical-align: -3px;
 }
+/* 头部！ */
 
 .main{
-    width: 1281px;
+    width: 100%;
+    /* min-width: 1280px; */
     height: 1213px;
-    margin: 0 auto;
-    /*overflow-x: auto;*/
+    /* margin: 0 auto; */
+    overflow-x: auto;
+    white-space: nowrap;
+    vertical-align:top;
 }
-.main_left{
-    width: 260px;
-    height: 100%;
-    float: left;
-    background-color: #2a2e3d;
 
+/* 左侧导航 */
+.main-left{
+    display: inline-block;
+    width: 260px;
+    height: 1213px;
+    background-color: #2a2e3d;
 }
-.main_right{
+/* 左侧导航！ */
+
+/* 左侧 */
+.main-right{
+    display: inline-block;
+    margin-right: -4px;
     width: 1021px;
-    height: 100%;
-    float: left;
+    height: 1213px;
     background-color: #eeeeed;
 }
-.main_left .main_right{
-    /*height: 1213px;*/
-    float: left;
-}
+/* 表单 */
+/* 表单！ */
+/* 小时导航 */
+/* 小时导航! */
+/* 统计各参数 */
+/* 统计各参数! */
+/* 项目表格 */
+/* 项目表格！ */
+/* 项目详情 */
+/* 项目详情！ */
+/* 日历 */
+/* 日历! */
+/* 排行榜 */
+/* 排行榜! */
+/* 左侧！ */

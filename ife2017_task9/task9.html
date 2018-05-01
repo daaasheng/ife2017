@@ -17,19 +17,160 @@
         <span>登录</span>
     </div>
 </div>
-<div class="main">
-    <div class="main_left">
-        hah
-    </div>
-    <div class="main_right">
-        <div class="crumbs"></div>
-        <div>
-            <div class="search_div"></div>
-            <div class="timer_div"></div>
-            <div class="stat_div"></div>
-            <div></div>
-        </div>
-    </div>
+<!-- <div class="main-wrap"> -->
+        <div class="main">
+                <!-- 左侧导航 -->
+                <div class="main-left">
+                    <div class="person-div">
+                        <img />
+                        <span class="nick-name">Dasheng</span>
+                    </div>
+                    <ul class="nav1-ul">
+                        <li class="nav1-li">
+                            <i></i>
+                            <span>个人报表</span>
+                            <ul class="nav2-ul active" id="nav2-ul1">
+                                <li class="nav2-li">
+                                    <i></i>
+                                    <span>文件夹一</span>
+                                    <ul class="nav3-ul active">
+                                        <li class="nav3-li">
+                                            <i></i>
+                                            <span></span>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <i></i>
+                                    <span>文件夹二</span>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="main-right">
+                    <div class="crumbs-div">
+                        <span class="crumbs-name" id="crumbs-text">主页/个人报表/文件一/文档一</span>
+                    </div>
+                    <div>
+                        <div class="search_div">
+                            <form>
+                                <div class="search-item">
+                                    <span>查询项</span>
+                                    <select>
+                                        <option>第一项</option>
+                                    </select>
+                                </div>
+                                <div >
+                                    <span>买方</span>
+                                    <span>卖方</span>
+                                </div>
+                                <div>
+                                    <select>
+                                        <option>小A</option>
+                                    </select>
+                                    <select>
+                                        <option>小B</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <span>日期</span>
+                                    <input type="text" name="date" value="2018-5-2" />
+                                    <span>总耗时</span>
+                                    <select>
+                                        <option>八天</option>
+                                    </select>
+                                    <span>人数</span>
+                                    <select>
+                                        <option>10人</option>
+                                    </select>
+                                    <span>成交项</span>
+                                    <select>
+                                        <option>10项</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <button>搜索</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="timer_div">
+                            <div class="toggle-btn"><i class=""></i></div>
+                            <div class="trede-amount">
+                                <span class="trade-time">10:00 am</span>
+                                <span class="trade-unit">￥</span>
+                                <span class="trade-money">1300</span>
+                            </div>
+                            <div class="toggle-btn"><i class=""></i></div>
+                            <div>
+                                <i></i>
+                                <span>历史查询</span>
+                            </div>
+                        </div>
+                        <div class="stat_div">
+                            <div class="stat-title">2018年5月份统计</div>
+                            <div class="stat-param">
+                                <span class="stat-number">123214</span>
+                                <span class="stat-name">成交量</span>
+                                <div class="stat-color"></div>
+                            </div>
+                        </div>
+                        <div class="pro-div">
+                            <div class="pro-table">
+                                <div class="pro-head">第一项目</div>
+                            </div>
+                            <div class="pro-info">
+                                <div class="pro-head">第一项目</div>
+                            </div>
+                            <div class="pro-date">
+                                <div class="pro-head">日历</div>
+                            </div>
+                            <div>
+                                <div class="pro-head">汽车行业品牌榜</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <!-- </div> -->
 </div>
+
+
+
+<script>
+    var contentList = [
+        {
+            icon: '',
+            name: '个人报表',
+            child: [
+                {
+                    name: '文件夹一',
+                    child: [
+                        {
+                            name: '文档1',
+                        }
+                    ]
+                }
+            ]
+        },{
+            icon: '',
+            name: '个人收藏',
+        },{
+            icon: '',
+            name: '我的分享',
+        },{
+            icon: '',
+            name: '图库',
+        },{
+            icon: '',
+            name: '成长记录',
+        }
+    ];
+    var zhNumber = ['一', '二', '三', '四', '五', '六', '七', '八', '九', '十']
+    //  数据填充
+    contentList.forEach(function(d, i){
+        
+    });
+    console.log(contentList);
+</script>
 </body>
 </html>
