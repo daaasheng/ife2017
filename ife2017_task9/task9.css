@@ -1,7 +1,8 @@
 /* 标签样式 */
 body {
+    width: 100%;
     margin: 0;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 /* 头部 */
@@ -68,29 +69,28 @@ body {
 
 .main{
     width: 100%;
-    /* min-width: 1280px; */
-    height: 1213px;
     /* margin: 0 auto; */
     overflow-x: auto;
     white-space: nowrap;
-    vertical-align:top;
 }
 
 /* 左侧导航 */
-.main-left{
+.main-left, .main-right{
     display: inline-block;
-    width: 260px;
     height: 1213px;
+    vertical-align:top;
+}
+.main-left{
+    width: 260px;
     background-color: #2a2e3d;
+    color: #fff;
 }
 /* 左侧导航！ */
 
 /* 左侧 */
 .main-right{
-    display: inline-block;
-    margin-right: -4px;
     width: 1021px;
-    height: 1213px;
+    margin-left: -5px;
     background-color: #eeeeed;
 }
 /* 表单 */
